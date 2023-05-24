@@ -3,7 +3,7 @@ using CarRentalManagement.RentalManagementService.BusinessLogicLayer.Services;
 using CarRentalManagement.PaymentService.BusinessLoLayer.Models;
 using Microsoft.AspNetCore.Mvc;
 using CarRentalManagement.PaymentService.BusinessLoLayer.Services;
-namespace BikeRentalSystem.PaymentService.Controller
+namespace CarRentalManagement.PaymentService.Controller
 {
     [Route("/api/payments")]
     [ApiController]
