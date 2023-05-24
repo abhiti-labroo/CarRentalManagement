@@ -14,11 +14,21 @@ namespace CarRentalManagement.UserManagementService.Controller
     {
         private readonly IUserService _userService;
         private readonly IConfiguration _configuration;
+        private IUserService object1;
+        private Castle.Core.Configuration.IConfiguration object2;
+
         public UserController(IUserService authUserService, IConfiguration configuration)
         {
             _userService = authUserService;
             _configuration = configuration;
         }
+
+        public UserController(IUserService object1, Castle.Core.Configuration.IConfiguration object2)
+        {
+            this.object1 = object1;
+            this.object2 = object2;
+        }
+
         [HttpPost("signup")]
         public IActionResult Signup(UserSDto authUserDto)
         {

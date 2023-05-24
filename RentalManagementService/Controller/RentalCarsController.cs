@@ -27,6 +27,7 @@ namespace CarRentalManagement.RentalManagementService.Controller
         public ActionResult<IEnumerable<RentalCarDto>> GetAllRentalItems()
         {
             var rentalItems = _rentalCarService.GetAllRentalCars();
+
             return Ok(rentalItems);
         }
         [HttpGet("rental/{rentalId}")]
@@ -36,7 +37,7 @@ namespace CarRentalManagement.RentalManagementService.Controller
             return Ok(rentalItems);
         }
         [HttpGet("car/{carId}")]
-        public ActionResult<IEnumerable<RentalCarDto>> GetRentalItemsByBike(int carId)
+        public ActionResult<IEnumerable<RentalCarDto>> GetRentalItemsByCar(int carId)
         {
             var rentalItems = _rentalCarService.GetRentalItemsByCar(carId);
             return Ok(rentalItems);

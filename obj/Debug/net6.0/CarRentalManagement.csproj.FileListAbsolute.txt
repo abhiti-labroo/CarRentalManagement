@@ -202,3 +202,5 @@ C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalMa
 C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalManagement\obj\Debug\net6.0\CarRentalManagement.pdb
 C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalManagement\obj\Debug\net6.0\CarRentalManagement.genruntimeconfig.cache
 C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalManagement\obj\Debug\net6.0\ref\CarRentalManagement.dll
+C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalManagement\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\hriday\source\repos\CarRentalManagement\CarRentalManagement\CarRentalManagement\bin\Debug\net6.0\Moq.dll
